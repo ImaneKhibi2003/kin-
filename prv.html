@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire de prise de rendez rendez-vous</title>
+    <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+    <h1>formulaire de prise de rendez-vous</h1>
+    <form>
+        <fieldset>
+            <legend>Votre identité</legend>
+        <p>
+            <label for="nom">Votre nom:</label>
+            <input type="text" id="nom" autofocus size="30" maxlength="20"/>
+            
+        </p>
+        <p>
+            <label for="pr">Votre prénom:</label>
+            <input type="text" id="pr" size="30"/>
+        </p>
+        <p>
+            <label for="adr">Votre adresse:</label>
+            <textarea id="adr"></textarea>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" size="30" placeholder="Ex: abdo21@hotmail.com"/>
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>Votre Profil</legend>
+            <p>
+            <label for="s">Votre sujet:</label>
+            <input type="text" id="s" size="30" maxlength="25"/>
+            </p>
+            <p>
+            <label for="d">Votre description:</label>
+            <input type="text" id="d" size="30" maxlength="25"/>
+            </p>  
+        </fieldset>
+        <p>
+            <input id="X" type="submit" value="Envoyer"/><input id="Y" type="reset" value="Annuler"/>
+        </p>
+    </form>
+        
+</body>
+</html>

@@ -1,0 +1,103 @@
+#b{
+    background-color: rgb(104, 4, 104);
+
+}
+#a{
+    float: right;
+    text-align: right;
+    width: 30%;
+    color: rgb(196, 10, 119);
+}
+#a:hover{
+    font-size: xx-large;
+}
+div{
+    background-color: white;
+}
+nav,footer
+{
+    clear: both;
+    background-color: rgb(104, 4,104);
+}
+nav ul li
+{
+    display: inline-block;
+    width: 300px;
+
+}
+nav ul li a:hover{
+    color:rgb(104, 4, 104);
+    background :white;
+    letter-spacing: 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
+#i{
+    width: 100%;
+}
+#corps{
+    border: 4px rgb(104,4,104) solid;
+}
+h1,h2{
+    color: rgb(196, 10, 119);
+}
+aside{
+    border-color: rgb(104, 4, 104);
+    border:2px;
+    border-radius:10px; 
+    border-style: solid;
+    background: linear-gradient(white,rgb(104,4,104));
+    padding: 10px;
+}
+#z{
+    border-color: white;
+    border-radius:10px; 
+    border-style: solid;
+    color:rgb(196, 10, 119);
+    background-color: white;
+}
+aside{
+    float: right;
+    width: 30%;
+}
+section{
+    float: left;
+    width: 60%;
+}
+#corps{
+    border: 10px white solid;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+#nom,#pr,#adr,#email,#s,#d{
+    border-radius: 10px;
+    border:2px rgb(104, 4, 104) solid;
+    background-color: pink;
+    size: 30px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+fieldset{
+    font-weight: bold;
+    border: 2px rgb(104, 4, 104) solid;
+    
+}
+#Y,#X{
+    border: 2px rgb(104, 4, 104) solid;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 0 50px;
+    color: rgb(104, 4,104);
+}
